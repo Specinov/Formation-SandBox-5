@@ -43,10 +43,30 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 34px;
+    font-size: 50px;
     font-weight: bold;
     text-align: center;
     z-index: 20;
+    font-family: 'Lato', sans-serif!important;
+    font-weight: 800!important;
+}
+
+@media (max-width: 740px) {
+    .carousel-title{
+        font-size: 25px;
+    }
+
+    .display-4{
+        font-size: 30px;
+    }
+
+    .pages, .social, .image {
+        text-align: center;
+    }
+
+    .social .row {
+        justify-content: center;
+    }
 }
 
 #shop-now{
@@ -56,7 +76,12 @@ body {
 .jumbotron {
     background-color: whitesmoke;
     color: rgb(44, 44, 44);
-    margin-bottom: 20px;
+    margin-bottom: 0!important;
+}
+
+.display-4{
+    font-family: 'Lato', sans-serif!important;
+    font-weight: 600!important;
 }
 
 
@@ -288,6 +313,28 @@ body {
     border: 5px;
 }
 
+.g_map::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5); /* Opacité du filtre noir (0 à 1) */
+    pointer-events: none; /* Pour permettre l'interaction avec l'iframe */
+}
+
+/* footer {
+    background-color: white;
+    padding: 30px 0;
+}
+
+footer a {
+    color: #6c757d;
+}
+
+footer a:hover {
+    color: #5a5e67;
+} */
 
 footer {
     background-color: white;
@@ -300,4 +347,15 @@ footer a {
 
 footer a:hover {
     color: #5a5e67;
+}
+
+/* Ajout des styles pour centrer le contenu */
+footer .justify-content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pages, .social, .image {
+    width: 100%;
 }
