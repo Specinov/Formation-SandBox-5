@@ -14,7 +14,6 @@ Plongeons ensemble dans le monde fascinant de la conception numérique responsab
 
 <details>
     <summary>Guide pour débuter et comprendre l'environnement</summary>   
-    
     ## Découvrir l'environnement
     
     Pour commencer, si cela n'est pas déjà fait, vous devez vous rendre sur [cette url](https://github.com/Specinov).
@@ -72,7 +71,6 @@ Plongeons ensemble dans le monde fascinant de la conception numérique responsab
 <details>
   <summary>Exercie 1 : Optimisation des images</summary>
   Comment pourriez-vous améliorer la performance et réduire l'impact environnemental en optimisant les images affichées sur l'écran d'accueil ?
-    
     <details>
         <summary>Indice 1</summary>
         Bouh le nul.
@@ -86,7 +84,6 @@ Plongeons ensemble dans le monde fascinant de la conception numérique responsab
 <details>
   <summary>Exercie 2 : Carousel</summary>
   Comment pourriez-vous améliorer la performance et réduire l'impact environnemental en optimisant les images affichées sur l'écran d'accueil ?
-    
     <details>
         <summary>Indice 1</summary>
         Bouh le nul.        
