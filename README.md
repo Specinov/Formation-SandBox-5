@@ -13,8 +13,9 @@ Au fil des exercices, notre objectif est de vous guider à travers des probléma
 Plongeons ensemble dans le monde fascinant de la conception numérique responsable ! 
 
 <details>
-    <summary>Guide pour débuter et comprendre l'environnement</summary>   
-    ## Découvrir l'environnement
+    <summary>Guide pour débuter et comprendre l'environnement</summary>
+    
+    Découvrir l'environnement
     
     Pour commencer, si cela n'est pas déjà fait, vous devez vous rendre sur [cette url](https://github.com/Specinov).
     
