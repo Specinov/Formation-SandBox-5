@@ -83,6 +83,15 @@ Ce dernier est accessible pour chaque fichier de l'onglet *Code* en cliquant sur
 
 
 ## Ecoconception
+<details open>
+  <summary>Exercie 1</summary>
+  World!
+        <details open>
+      <summary>Exercie 1 réponse</summary>
+      World!
+    </details>
+</details>
+
 ## Accessibilité
 ## Auteur
 
