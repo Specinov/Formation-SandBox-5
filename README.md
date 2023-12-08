@@ -22,9 +22,10 @@ Plongeons ensemble dans le monde fascinant de la conception numérique responsab
 - Pour aller plus loin
 
 <details open>
-    <summary>
-        ## Découvrir l'environnement
-    </summary>   
+<summary>Guide pour débuter et comprendre l'environnement</summary>   
+
+## Découvrir l'environnement
+
 Pour commencer, si cela n'est pas déjà fait, vous devez vous rendre sur [cette url](https://github.com/Specinov).
 
 Vous devriez être sur la page publique GitHub du la société [Spécinov](https://www.specinov.fr/). Dès lors vous pouvez choisir un repository "Bac à sable" parmis ceux proposés : 
@@ -76,12 +77,8 @@ Ce dernier est accessible pour chaque fichier de l'onglet *Code* en cliquant sur
 </details>
 
 
-
-
-
-
 ## Ecoconception
-<details open>
+<details>
   <summary>Exercie 1 : Optimisation des images</summary>
   Comment pourriez-vous améliorer la performance et réduire l'impact environnemental en optimisant les images affichées sur l'écran d'accueil ?
     <details>
@@ -89,7 +86,20 @@ Ce dernier est accessible pour chaque fichier de l'onglet *Code* en cliquant sur
       Bouh le nul.
     </details>
     <details>
-      <summary>Réponse/summary>
+      <summary>Réponse</summary>
+      Bouh le nul.
+    </details>
+</details>
+
+<details>
+  <summary>Exercie 2 : Carousel</summary>
+  Comment pourriez-vous améliorer la performance et réduire l'impact environnemental en optimisant les images affichées sur l'écran d'accueil ?
+    <details>
+      <summary>Indice 1</summary>
+      Bouh le nul.
+    </details>
+    <details>
+      <summary>Réponse</summary>
       Bouh le nul.
     </details>
 </details>
