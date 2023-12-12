@@ -86,7 +86,7 @@ Renseignez-vous sur la [recommandation RGESN sur le dimensionnement des images](
 <details>
 <summary><u>Réponse</u></summary>
 <br>
-Lorsque l'on analyse les images du site, par exemple les images du carousel, l'image "Des cakes apétissants" ou encore l'image de la section "Faites votre choix", qu'on les ouvre dans un nouvel onglet, on s'aperçoit qu'elles sont bien plus grandes que la taille rendue à l'écran sur le site web.
+Lorsque l'on analyse les images du site, par exemple les images du carrousel, l'image "Des cakes apétissants" ou encore l'image de la section "Faites votre choix", qu'on les ouvre dans un nouvel onglet, on s'aperçoit qu'elles sont bien plus grandes que la taille rendue à l'écran sur le site web.
 
 Pour observer ce phénomène, il est aussi possible de se rendre dans la console de développement en effectuant un clic droit sur l'image puis "inspecter" dans le menu qui s'affiche. Cette action nous ouvre une fenêtre avec la ressource de l'image en code HTML. Exemple pour l'image de la section "Faites votre choix" : 
 
@@ -114,8 +114,7 @@ Les images trop grosses en taille peuvent avoir un impact négatif sur les perfo
 <br>
 <details>
 <summary><strong>Exercice 2 : Attributs html des images</strong></summary>
-Comment pourriez-vous améliorer la performance et réduire l'impact environnemental en optimisant les images affichées sur l'écran d'accueil ?
-
+TODO
 <br>
 <details>
 <summary><u>Indice 1</u></summary>
@@ -131,9 +130,8 @@ jsp
 
 <br>
 <details>
-<summary><strong>Exercice 3 : Test</strong></summary>
-Comment pourriez-vous améliorer la performance et réduire l'impact environnemental en optimisant les images affichées sur l'écran d'accueil ?
-
+<summary><strong>Exercice 3 : Utilisation de bibliothèque d'icones</strong></summary>
+TODO
 <br>
 <details>
 <summary>Indice 1</summary>
