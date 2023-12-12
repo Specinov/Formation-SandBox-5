@@ -11,15 +11,9 @@ Au fil des exercices, notre objectif est de vous guider à travers des probléma
 À travers des défis pratiques et des résolutions de problèmes, vous aurez l'opportunité de façonner des solutions qui intègrent ces deux concepts. Que vous soyez débutant ou expert, ce parcours a été conçu pour enrichir vos compétences.
 
 Plongeons ensemble dans le monde fascinant de la conception numérique responsable ! 
-## Sommaire
 
-- Guide pour débuter et comprendre l'environnement
-    - Présentation du GitHub
-    - Les différentes options
-    - Comment modifier les sources 
-- Exercices d'écoconception
-- Exercices d'accessibilité numérique
-- Pour aller plus loin
+<details>
+    <summary>Guide pour débuter et comprendre l'environnement</summary>
 
 ## Découvrir l'environnement
 
@@ -28,8 +22,8 @@ Pour commencer, si cela n'est pas déjà fait, vous devez vous rendre sur [cette
 Vous devriez être sur la page publique GitHub du la société [Spécinov](https://www.specinov.fr/). Dès lors vous pouvez choisir un repository "Bac à sable" parmis ceux proposés : 
 
 - [Formation-SandBox-1](https://github.com/Specinov/Formation-SandBox-1) 
-- [Formation-SandBox-2](https://github.com/Specinov/Formation-SandBox-1)
-- [Formation-SandBox-3](https://github.com/Specinov/Formation-SandBox-1)
+- [Formation-SandBox-2](https://github.com/Specinov/Formation-SandBox-2)
+- [Formation-SandBox-3](https://github.com/Specinov/Formation-SandBox-3)
 - [Formation-SandBox-4](https://github.com/Specinov/Formation-SandBox-1)
 - [Formation-SandBox-5](https://github.com/Specinov/Formation-SandBox-1)
 - [Formation-SandBox-6](https://github.com/Specinov/Formation-SandBox-1)
@@ -71,20 +65,82 @@ Ce dernier est accessible pour chaque fichier de l'onglet *Code* en cliquant sur
 
 ![Modification de fichier au sein de GitHub](/Ressources_README/GitHub_modification.png)
 
+</details>
 
 
+## Écoconception
+
+<details>
+<summary>Exercice 1 : Optimisation des images</summary>
+Comment pourriez-vous améliorer la performance du site et réduire l'impact environnemental en optimisant les images affichées sur l'écran d'accueil ?
+
+<details>
+<summary>Indice 1</summary>
+Regardez la taille et la dimension des images.
+
+Renseignez-vous sur la [recommandation RGESN sur le dimensionnement des images](https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/6.5/).
+
+<details>
+<summary>Réponse</summary>
+Lorsque l'on analyse les images du site, par exemple les images du carousel, l'image "Des cakes apétissants" ou encore l'image de la section "Faites votre choix", qu'on les ouvre dans un nouvel onglet, on s'aperçoit qu'elles sont bien plus grandes que la taille rendue à l'écran sur le site web.
+
+Pour observer ce phénomène, il est aussi possible de se rendre dans la console de développement en effectuant un clic droit sur l'image puis "inspecter" dans le menu qui s'affiche. Cette action nous ouvre une fenêtre avec la ressource de l'image en code HTML. Exemple pour l'image de la section "Faites votre choix" : 
+
+```
+<div class="key_img col-md-6">
+    <img src="images/back22.jpg">
+</div>
+```
+
+Lorsque l'on survole l'url de l'image "images/back22.jpg" on obtient une fenêtre de la sorte : 
+
+![Propriétés d'une image dans la console](/Ressources_README/proprietes_image.png)
 
 
+</details>
+</details>
+</details>
 
+---
 
+<details>
+<summary>Exercie 2 : Attributs html des images</summary>
+Comment pourriez-vous améliorer la performance et réduire l'impact environnemental en optimisant les images affichées sur l'écran d'accueil ?
 
+<details>
+<summary>Indice 1</summary>
+    
+Renseignez-vous sur la [recommandation RGESN sur les balises width et height des images](https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/6.5/)        
 
+<details>
+<summary>Réponse</summary>
+jsp
+</details>
+</details>
+</details>
 
+---
 
+<details>
+<summary>Exercie 3 : Test</summary>
+Comment pourriez-vous améliorer la performance et réduire l'impact environnemental en optimisant les images affichées sur l'écran d'accueil ?
 
-## Ecoconception
+<details>
+<summary>Indice 1</summary>
+    
+Renseignez-vous sur la [recommandation RGESN sur les balises width et height des images](https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/6.5/)        
+
+<details>
+<summary>Réponse</summary>
+jsp
+</details>
+</details>
+</details>
+
 ## Accessibilité
+
 ## Auteur
 
 - [@poupardjean](https://github.com/poupardjean)
+- [@juliettespecinov](https://github.com/JulietteSpecinov)
 
