@@ -76,7 +76,7 @@ Ce dernier est accessible pour chaque fichier de l'onglet *Code* en cliquant sur
 Comment pourriez-vous améliorer la performance du site et réduire l'impact environnemental en optimisant les images affichées sur l'écran d'accueil ?
 <br><br>
 <details>
-<summary><u>Indice 1</u></summary>
+<summary>__Indice 1__</summary>
 <br>
 Regardez la taille et la dimension des images.
 
