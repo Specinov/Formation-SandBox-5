@@ -70,19 +70,18 @@ Ce dernier est accessible pour chaque fichier de l'onglet *Code* en cliquant sur
 
 ## Écoconception
 
-<br><br>
 <details>
-<summary>**Exercice 1 : Optimisation des images**</summary>
+<summary><strong>Exercice 1 : Optimisation des images</strong></summary>
 Comment pourriez-vous améliorer la performance du site et réduire l'impact environnemental en optimisant les images affichées sur l'écran d'accueil ?
 
-<br><br>
+<br>
 <details>
 <summary>Indice 1</summary>
 Regardez la taille et la dimension des images.
 
 Renseignez-vous sur la [recommandation RGESN sur le dimensionnement des images](https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/6.5/).
 
-<br><br>
+<br>
 <details>
 <summary>Réponse</summary>
 Lorsque l'on analyse les images du site, par exemple les images du carousel, l'image "Des cakes apétissants" ou encore l'image de la section "Faites votre choix", qu'on les ouvre dans un nouvel onglet, on s'aperçoit qu'elles sont bien plus grandes que la taille rendue à l'écran sur le site web.
@@ -106,12 +105,12 @@ Lorsque l'on survole l'url de l'image "images/back22.jpg" on obtient une fenêtr
 
 ---
 
-<br><br>
+<br>
 <details>
 <summary>**Exercice 2 : Attributs html des images**</summary>
 Comment pourriez-vous améliorer la performance et réduire l'impact environnemental en optimisant les images affichées sur l'écran d'accueil ?
 
-<br><br>
+<br>
 <details>
 <summary>Indice 1</summary>
     
@@ -125,12 +124,12 @@ jsp
 </details>
 
 ---
-<br><br>
+<br>
 <details>
 <summary>**Exercice 3 : Test**</summary>
 Comment pourriez-vous améliorer la performance et réduire l'impact environnemental en optimisant les images affichées sur l'écran d'accueil ?
 
-<br><br>
+<br>
 <details>
 <summary>Indice 1</summary>
     
