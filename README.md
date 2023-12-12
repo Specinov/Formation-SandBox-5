@@ -72,8 +72,9 @@ Ce dernier est accessible pour chaque fichier de l'onglet *Code* en cliquant sur
 
 <details>
 <summary><strong>Exercice 1 : Optimisation des images</strong></summary>
+<br>
 Comment pourriez-vous améliorer la performance du site et réduire l'impact environnemental en optimisant les images affichées sur l'écran d'accueil ?
-<br><br>
+<br>
 <details>
 <summary>Indice 1</summary>
 <br>
@@ -106,8 +107,6 @@ Lorsque l'on survole l'url de l'image "images/back22.jpg" on obtient une fenêtr
 
 
 <br>
----
-
 <details>
 <summary><strong>Exercice 2 : Attributs html des images</strong></summary>
 Comment pourriez-vous améliorer la performance et réduire l'impact environnemental en optimisant les images affichées sur l'écran d'accueil ?
