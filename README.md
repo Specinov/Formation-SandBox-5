@@ -13,7 +13,7 @@ Au fil des exercices, notre objectif est de vous guider à travers des probléma
 Plongeons ensemble dans le monde fascinant de la conception numérique responsable ! 
 
 <details>
-    <summary><b>Guide pour débuter et comprendre l'environnement</b></summary>
+    <summary>Guide pour débuter et comprendre l'environnement</summary>
 
 ## Découvrir l'environnement
 
@@ -71,14 +71,46 @@ Ce dernier est accessible pour chaque fichier de l'onglet *Code* en cliquant sur
 ## Écoconception
 
 <details>
-<summary>Exercie 1 : Optimisation des images</summary>
+<summary>Exercice 1 : Optimisation des images</summary>
 Comment pourriez-vous améliorer la performance du site et réduire l'impact environnemental en optimisant les images affichées sur l'écran d'accueil ?
 
 <details>
 <summary>Indice 1</summary>
-Regardez la taille des images.
+Regardez la taille et la dimension des images.
 
 Renseignez-vous sur la [recommandation RGESN sur le dimensionnement des images](https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/6.5/).
+
+<details>
+<summary>Réponse</summary>
+Lorsque l'on analyse les images du site, par exemple les images du carousel, l'image "Des cakes apétissants" ou encore l'image de la section "Faites votre choix", qu'on les ouvre dans un nouvel onglet, on s'aperçoit qu'elles sont bien plus grandes que la taille rendue à l'écran sur le site web.
+
+Pour observer ce phénomène, il est aussi possible de se rendre dans la console de développement en effectuant un clic droit sur l'image puis "inspecter" dans le menu qui s'affiche. Cette action nous ouvre une fenêtre avec la ressource de l'image en code HTML. Exemple pour l'image de la section "Faites votre choix" : 
+
+```
+<div class="key_img col-md-6">
+    <img src="images/back22.jpg">
+</div>
+```
+
+Lorsque l'on survole l'url de l'image "images/back22.jpg" on obtient une fenêtre de la sorte : 
+
+![Propriétés d'une image dans la console](/Ressources_README/proprietes_image.png)
+
+
+</details>
+</details>
+</details>
+
+---
+
+<details>
+<summary>Exercie 2 : Attributs html des images</summary>
+Comment pourriez-vous améliorer la performance et réduire l'impact environnemental en optimisant les images affichées sur l'écran d'accueil ?
+
+<details>
+<summary>Indice 1</summary>
+    
+Renseignez-vous sur la [recommandation RGESN sur les balises width et height des images](https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/6.5/)        
 
 <details>
 <summary>Réponse</summary>
@@ -87,8 +119,10 @@ jsp
 </details>
 </details>
 
+---
+
 <details>
-<summary>Exercie 2 : Attributs html des images</summary>
+<summary>Exercie 3 : Test</summary>
 Comment pourriez-vous améliorer la performance et réduire l'impact environnemental en optimisant les images affichées sur l'écran d'accueil ?
 
 <details>
