@@ -68,17 +68,19 @@ Ce dernier est accessible pour chaque fichier de l'onglet *Code* en cliquant sur
 </details>
 
 
-## Ecoconception
+## Écoconception
+
 <details>
   <summary>Exercie 1 : Optimisation des images</summary>
-  Comment pourriez-vous améliorer la performance et réduire l'impact environnemental en optimisant les images affichées sur l'écran d'accueil ?
+  Comment pourriez-vous améliorer la performance du site et réduire l'impact environnemental en optimisant les images affichées sur l'écran d'accueil ?
     
 <details>
     <summary>Indice 1</summary>
-    Bouh le nul.
+    Regardez la taille des images.
+    Renseignez-vous sur la [recommandation RGESN sur le dimensionnement des images](https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/6.5/)
     <details>
       <summary>Réponse</summary>
-      Bouh le nul.
+      Redimensionnez les images.
     </details>
 </details>
 </details>
@@ -96,8 +98,11 @@ Ce dernier est accessible pour chaque fichier de l'onglet *Code* en cliquant sur
     </details>
 </details>
 
+
 ## Accessibilité
+
 ## Auteur
 
 - [@poupardjean](https://github.com/poupardjean)
+- [@juliettespecinov](https://github.com/JulietteSpecinov)
 
