@@ -103,11 +103,10 @@ Lorsque l'on survole l'url de l'image "images/back22.jpg" on obtient une fenêtr
 </details>
 </details>
 
----
 
 <br>
 <details>
-<summary>**Exercice 2 : Attributs html des images**</summary>
+<summary><strong>Exercice 2 : Attributs html des images</strong></summary>
 Comment pourriez-vous améliorer la performance et réduire l'impact environnemental en optimisant les images affichées sur l'écran d'accueil ?
 
 <br>
@@ -123,10 +122,9 @@ jsp
 </details>
 </details>
 
----
 <br>
 <details>
-<summary>**Exercice 3 : Test**</summary>
+<summary><strong>Exercice 3 : Test</strong></summary>
 Comment pourriez-vous améliorer la performance et réduire l'impact environnemental en optimisant les images affichées sur l'écran d'accueil ?
 
 <br>
