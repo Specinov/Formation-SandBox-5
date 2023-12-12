@@ -106,6 +106,10 @@ Lorsque l'on survole l'url de l'image "images/back22.jpg" on obtient une fenêtr
 
 
 <br>
+---
+___
+***
+-----
 <details>
 <summary><strong>Exercice 2 : Attributs html des images</strong></summary>
 Comment pourriez-vous améliorer la performance et réduire l'impact environnemental en optimisant les images affichées sur l'écran d'accueil ?
