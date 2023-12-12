@@ -76,7 +76,7 @@ Ce dernier est accessible pour chaque fichier de l'onglet *Code* en cliquant sur
 Comment pourriez-vous améliorer la performance du site et réduire l'impact environnemental en optimisant les images affichées sur l'écran d'accueil ?
 <br><br>
 <details>
-<summary>__Indice 1__</summary>
+<summary>Indice 1</summary>
 <br>
 Regardez la taille et la dimension des images.
 
@@ -100,6 +100,11 @@ Lorsque l'on survole l'url de l'image "images/back22.jpg" on obtient une fenêtr
 
 ![Propriétés d'une image dans la console](/Ressources_README/proprietes_image.png)
 
+Sur l'image on distingue que la taille rendue "Rendered size" est bien inférieur à la taille originale de l'image "Intrinsic size". On peut également cliquer sur le lien qui s'affiche afin d'observer directement la différence de taille.
+
+Vous pouvez dès alors redimensionner les différentes images, disponibles dans le dossier "image" si cela n'est pas déjà fait.
+
+Les images trop grosses en taille peuvent avoir un impact négatif sur les performances d'une application web, en particulier sur les appareils mobiles. Elles peuvent entraîner une augmentation du poids d'une page web et donc ralentir le temps de chargement de cette dernière.
 
 </details>
 </details>
