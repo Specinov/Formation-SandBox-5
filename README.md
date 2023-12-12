@@ -22,8 +22,8 @@ Pour commencer, si cela n'est pas déjà fait, vous devez vous rendre sur [cette
 Vous devriez être sur la page publique GitHub du la société [Spécinov](https://www.specinov.fr/). Dès lors vous pouvez choisir un repository "Bac à sable" parmis ceux proposés : 
 
 - [Formation-SandBox-1](https://github.com/Specinov/Formation-SandBox-1) 
-- [Formation-SandBox-2](https://github.com/Specinov/Formation-SandBox-1)
-- [Formation-SandBox-3](https://github.com/Specinov/Formation-SandBox-1)
+- [Formation-SandBox-2](https://github.com/Specinov/Formation-SandBox-2)
+- [Formation-SandBox-3](https://github.com/Specinov/Formation-SandBox-3)
 - [Formation-SandBox-4](https://github.com/Specinov/Formation-SandBox-1)
 - [Formation-SandBox-5](https://github.com/Specinov/Formation-SandBox-1)
 - [Formation-SandBox-6](https://github.com/Specinov/Formation-SandBox-1)
@@ -76,10 +76,13 @@ Ce dernier est accessible pour chaque fichier de l'onglet *Code* en cliquant sur
     
 <details>
     <summary>Indice 1</summary>
+    
     Regardez la taille des images.
     Renseignez-vous sur la [recommandation RGESN sur le dimensionnement des images](https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/6.5/)
+    
     <details>
       <summary>Réponse</summary>
+      
       Redimensionnez les images.
     </details>
 </details>
