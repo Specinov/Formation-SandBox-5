@@ -13,7 +13,7 @@ Au fil des exercices, notre objectif est de vous guider à travers des probléma
 Plongeons ensemble dans le monde fascinant de la conception numérique responsable ! 
 
 <details>
-    <summary>Guide pour débuter et comprendre l'environnement</summary>
+    <summary><b>Guide pour débuter et comprendre l'environnement</b></summary>
 
 ## Découvrir l'environnement
 
