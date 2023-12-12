@@ -75,9 +75,8 @@ Ce dernier est accessible pour chaque fichier de l'onglet *Code* en cliquant sur
 <br>
 Comment pourriez-vous améliorer la performance du site et réduire l'impact environnemental en optimisant les images affichées sur l'écran d'accueil ?
 <br><br>
->>> test
 <details>
-<summary>Indice 1</summary>
+<summary><u>Indice 1</u></summary>
 <br>
 Regardez la taille et la dimension des images.
 
@@ -85,7 +84,7 @@ Renseignez-vous sur la [recommandation RGESN sur le dimensionnement des images](
 
 <br>
 <details>
-<summary>Réponse</summary>
+<summary><u>Réponse</u></summary>
 <br>
 Lorsque l'on analyse les images du site, par exemple les images du carousel, l'image "Des cakes apétissants" ou encore l'image de la section "Faites votre choix", qu'on les ouvre dans un nouvel onglet, on s'aperçoit qu'elles sont bien plus grandes que la taille rendue à l'écran sur le site web.
 
@@ -114,12 +113,12 @@ Comment pourriez-vous améliorer la performance et réduire l'impact environneme
 
 <br>
 <details>
-<summary>Indice 1</summary>
+<summary><u>Indice 1</u></summary>
     
 Renseignez-vous sur la [recommandation RGESN sur les balises width et height des images](https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/6.5/)        
 
 <details>
-<summary>Réponse</summary>
+<summary><u>Réponse</u></summary>
 jsp
 </details>
 </details>
