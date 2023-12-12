@@ -77,7 +77,8 @@ Comment pourriez-vous améliorer la performance du site et réduire l'impact env
 <details>
 <summary>Indice 1</summary>
 Regardez la taille des images.
-Renseignez-vous sur la [recommandation RGESN sur le dimensionnement des images](https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/6.5/)
+
+Renseignez-vous sur la [recommandation RGESN sur le dimensionnement des images](https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/6.5/).
 
 <details>
 <summary>Réponse</summary>
@@ -92,6 +93,7 @@ Comment pourriez-vous améliorer la performance et réduire l'impact environneme
 
 <details>
 <summary>Indice 1</summary>
+    
 Renseignez-vous sur la [recommandation RGESN sur les balises width et height des images](https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/6.5/)        
 
 <details>
@@ -100,7 +102,6 @@ jsp
 </details>
 </details>
 </details>
-
 
 ## Accessibilité
 
