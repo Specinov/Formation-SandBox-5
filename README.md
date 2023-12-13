@@ -123,7 +123,7 @@ Pour information, le Cumulative Layout Shift (CLS) est une mesure qui indique à
 <summary><u>Indice</u></summary>
 <br>
 Considérez l'importance de réserver de l'espace pour les éléments de contenu avant leur chargement complet. Il existe des attributs spécifiques dans les balises <img> qui peuvent aider le navigateur à allouer l'espace nécessaire pour chaque image dès le début du chargement de la page.     
-<br>
+<br><br>
 <details>
 <summary><u>Réponse</u></summary>
 <br>
@@ -150,16 +150,30 @@ On constate qu'aucun attribut `width` ou `height` n'est présente. Il est import
 <br>
 <details>
 <summary><strong>Exercice 3 : Utilisation de bibliothèque d'icones</strong></summary>
-TODO
+<br>
+Le site Web utilise la bibliothèque Font Awesome intégrale pour afficher des icônes, mais il n'y a que  5 icônes sur le site. Importer toute la bibliothèque Font Awesome juste pour ces quelques icônes peut être inefficace et augmenter le temps de chargement de la page. Comment pourriez-vous optimiser l'utilisation des icônes pour améliorer les performances de votre site ?
 <br>
 <details>
-<summary>Indice 1</summary>
-    
-Renseignez-vous sur la [recommandation RGESN sur les balises width et height des images](https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/6.5/)        
-
+<summary>Indice</summary>
+<br>
+Réfléchissez à une méthode qui permet d'utiliser uniquement les icônes dont vous avez besoin, sans importer toute une bibliothèque. Il existe des outils en ligne qui peuvent vous aider à créer votre propre bibliothèque d'icônes personnalisée. Il est possible d'utiliser des outils tels qu'Icomoon.      
+<br>
 <details>
 <summary>Réponse</summary>
-jsp
+<br>
+Une solution efficace serait d'utiliser un outil comme IcoMoon pour créer une bibliothèque d'icônes personnalisée. Avec IcoMoon, vous pouvez sélectionner uniquement les icônes que vous utilisez réellement sur votre site, ce qui réduit considérablement la taille de la bibliothèque d'icônes à charger. Cela améliore les performances de votre site en réduisant le poids des fichiers à télécharger, accélérant ainsi le temps de chargement de la page.
+
+Voici les étapes à suivre :
+
+1- Choisissez Vos Icônes : Sélectionnez les icônes spécifiques que vous souhaitez utiliser à partir de votre bibliothèque actuelle (comme Font Awesome) ou de la vaste collection d'IcoMoon.
+
+2- Créez une Bibliothèque Personnalisée : Utilisez IcoMoon pour créer une bibliothèque contenant uniquement ces icônes.
+
+3- Intégrez la Nouvelle Bibliothèque : Remplacez l'importation de Font Awesome par votre nouvelle bibliothèque personnalisée d'IcoMoon dans votre site Web.
+
+4- Mise à Jour du Code : Mettez à jour les références aux icônes dans votre code HTML ou CSS pour utiliser les icônes de votre bibliothèque personnalisée.
+
+En suivant ces étapes, vous pouvez réduire significativement la quantité de données à charger pour les icônes, optimisant ainsi les performances et l'éco-conception de votre site.
 </details>
 </details>
 </details>
