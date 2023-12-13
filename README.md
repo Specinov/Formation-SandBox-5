@@ -76,7 +76,7 @@ Ce dernier est accessible pour chaque fichier de l'onglet *Code* en cliquant sur
 Comment pourriez-vous améliorer la performance du site et réduire l'impact environnemental en optimisant les images affichées sur l'écran d'accueil ?
 <br><br>
 <details>
-<summary>Indice 1</summary>
+<summary>Indice</summary>
 <br>
 Regardez la taille et la dimension des images.
 
@@ -114,16 +114,32 @@ Les images trop grosses en taille peuvent avoir un impact négatif sur les perfo
 <br>
 <details>
 <summary><strong>Exercice 2 : Attributs html des images</strong></summary>
-TODO
+Quelle modification pouvez-vous apporter aux balises <img> pour réduire les décalages de mise en page et améliorer le CLS du site ?
+
+Pour information, le Cumulative Layout Shift (CLS) est une mesure qui indique à quel point les choses bougent sur une page web pendant qu'elle se charge. Imaginez que vous lisez un article et soudainement, une image apparaît et déplace tout le texte ; c'est frustrant, n'est-ce pas ? Le CLS mesure ces mouvements. Un CLS élevé signifie qu'il y a beaucoup de ces mouvements agaçants, et un faible CLS signifie que la page est stable et agréable à utiliser. Donc, pour une bonne expérience utilisateur, nous voulons un CLS le plus bas possible.
 <br>
 <details>
-<summary><u>Indice 1</u></summary>
-    
-Renseignez-vous sur la [recommandation RGESN sur les balises width et height des images](https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/critere/6.5/)        
+<summary><u>Indice</u></summary>
+Considérez l'importance de réserver de l'espace pour les éléments de contenu avant leur chargement complet. Il existe des attributs spécifiques dans les balises `<img>` qui peuvent aider le navigateur à allouer l'espace nécessaire pour chaque image dès le début du chargement de la page.     
 
 <details>
 <summary><u>Réponse</u></summary>
-jsp
+Lorsque les attributs width et height ne sont pas spécifiés pour une image dans le code HTML, le navigateur ne sait pas à l'avance quelle place l'image occupera sur la page. Cela peut entraîner un phénomène appelé "reflow" ou "layout shift", où les éléments de la page se déplacent pendant le chargement lorsque les images sont finalement téléchargées et rendues. Ce phénomène peut non seulement dégrader l'expérience utilisateur, mais aussi augmenter le temps de chargement de la page, car le navigateur doit recalculer la disposition de la page plusieurs fois.
+
+En spécifiant les attributs `width` et `height` des images, le navigateur peut allouer l'espace nécessaire pour chaque image dès le début du chargement de la page, même si l'image elle-même n'est pas encore chargée. Cela permet de réduire les changements de mise en page inattendus et d'améliorer la stabilité visuelle de la page. En outre, cela contribue à une utilisation plus efficace des ressources, car le navigateur peut optimiser le processus de rendu, ce qui est bénéfique tant pour les performances que pour l'éco-conception du site.
+
+Dans notre cas, nous pouvons prendre des images comme celles présentes dans l'encart "Les meilleures ventes" : 
+
+```
+<div class="item_img">
+    <img src="images/char.jpg">
+</div>
+<div class="item_img">
+    <img src="images/bacon.jpg">
+</div>
+```
+
+On constate qu'aucun attribut `width` ou `height` n'est présente. Il est important d'en insérer afin de définir un ratio et un espace réservé lors de la création de la page. Par défaut il est intéressant non seulement de dimensionner efficacement les images et ensuite d'attribuer les attributs `width` ou `height` suivant la taille voulu de l'image. Il est aussi possible d'ajouter du code CSS au dessus de ces attributs pour davantage de flexibilité pour le responsive.
 </details>
 </details>
 </details>
