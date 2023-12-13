@@ -114,17 +114,20 @@ Les images trop grosses en taille peuvent avoir un impact négatif sur les perfo
 <br>
 <details>
 <summary><strong>Exercice 2 : Attributs html des images</strong></summary>
+<br>
 Quelle modification pouvez-vous apporter aux balises <img> pour réduire les décalages de mise en page et améliorer le CLS du site ?
 
 Pour information, le Cumulative Layout Shift (CLS) est une mesure qui indique à quel point les choses bougent sur une page web pendant qu'elle se charge. Imaginez que vous lisez un article et soudainement, une image apparaît et déplace tout le texte ; c'est frustrant, n'est-ce pas ? Le CLS mesure ces mouvements. Un CLS élevé signifie qu'il y a beaucoup de ces mouvements agaçants, et un faible CLS signifie que la page est stable et agréable à utiliser. Donc, pour une bonne expérience utilisateur, nous voulons un CLS le plus bas possible.
 <br>
 <details>
 <summary><u>Indice</u></summary>
-Considérez l'importance de réserver de l'espace pour les éléments de contenu avant leur chargement complet. Il existe des attributs spécifiques dans les balises `<img>` qui peuvent aider le navigateur à allouer l'espace nécessaire pour chaque image dès le début du chargement de la page.     
-
+<br>
+Considérez l'importance de réserver de l'espace pour les éléments de contenu avant leur chargement complet. Il existe des attributs spécifiques dans les balises <img> qui peuvent aider le navigateur à allouer l'espace nécessaire pour chaque image dès le début du chargement de la page.     
+<br>
 <details>
 <summary><u>Réponse</u></summary>
-Lorsque les attributs width et height ne sont pas spécifiés pour une image dans le code HTML, le navigateur ne sait pas à l'avance quelle place l'image occupera sur la page. Cela peut entraîner un phénomène appelé "reflow" ou "layout shift", où les éléments de la page se déplacent pendant le chargement lorsque les images sont finalement téléchargées et rendues. Ce phénomène peut non seulement dégrader l'expérience utilisateur, mais aussi augmenter le temps de chargement de la page, car le navigateur doit recalculer la disposition de la page plusieurs fois.
+<br>
+Lorsque les attributs `width` et `height` ne sont pas spécifiés pour une image dans le code HTML, le navigateur ne sait pas à l'avance quelle place l'image occupera sur la page. Cela peut entraîner un phénomène appelé "reflow" ou "layout shift", où les éléments de la page se déplacent pendant le chargement lorsque les images sont finalement téléchargées et rendues. Ce phénomène peut non seulement dégrader l'expérience utilisateur, mais aussi augmenter le temps de chargement de la page, car le navigateur doit recalculer la disposition de la page plusieurs fois.
 
 En spécifiant les attributs `width` et `height` des images, le navigateur peut allouer l'espace nécessaire pour chaque image dès le début du chargement de la page, même si l'image elle-même n'est pas encore chargée. Cela permet de réduire les changements de mise en page inattendus et d'améliorer la stabilité visuelle de la page. En outre, cela contribue à une utilisation plus efficace des ressources, car le navigateur peut optimiser le processus de rendu, ce qui est bénéfique tant pour les performances que pour l'éco-conception du site.
 
