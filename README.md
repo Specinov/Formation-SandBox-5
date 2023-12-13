@@ -152,12 +152,12 @@ On constate qu'aucun attribut `width` ou `height` n'est présente. Il est import
 <summary><strong>Exercice 3 : Utilisation de bibliothèque d'icones</strong></summary>
 <br>
 Le site Web utilise la bibliothèque Font Awesome intégrale pour afficher des icônes, mais il n'y a que  5 icônes sur le site. Importer toute la bibliothèque Font Awesome juste pour ces quelques icônes peut être inefficace et augmenter le temps de chargement de la page. Comment pourriez-vous optimiser l'utilisation des icônes pour améliorer les performances de votre site ?
-<br>
+<br><br>
 <details>
 <summary>Indice</summary>
 <br>
 Réfléchissez à une méthode qui permet d'utiliser uniquement les icônes dont vous avez besoin, sans importer toute une bibliothèque. Il existe des outils en ligne qui peuvent vous aider à créer votre propre bibliothèque d'icônes personnalisée. Il est possible d'utiliser des outils tels qu'Icomoon.      
-<br>
+<br><br>
 <details>
 <summary>Réponse</summary>
 <br>
@@ -165,13 +165,13 @@ Une solution efficace serait d'utiliser un outil comme IcoMoon pour créer une b
 
 Voici les étapes à suivre :
 
-1- Choisissez Vos Icônes : Sélectionnez les icônes spécifiques que vous souhaitez utiliser à partir de votre bibliothèque actuelle (comme Font Awesome) ou de la vaste collection d'IcoMoon.
+<strong>1- Choisissez Vos Icônes : </strong>Sélectionnez les icônes spécifiques que vous souhaitez utiliser à partir de votre bibliothèque actuelle (comme Font Awesome) ou de la vaste collection d'IcoMoon.
 
-2- Créez une Bibliothèque Personnalisée : Utilisez IcoMoon pour créer une bibliothèque contenant uniquement ces icônes.
+<strong>2- Créez une Bibliothèque Personnalisée : </strong>Utilisez IcoMoon pour créer une bibliothèque contenant uniquement ces icônes.
 
-3- Intégrez la Nouvelle Bibliothèque : Remplacez l'importation de Font Awesome par votre nouvelle bibliothèque personnalisée d'IcoMoon dans votre site Web.
+<strong>3- Intégrez la Nouvelle Bibliothèque : </strong>Remplacez l'importation de Font Awesome par votre nouvelle bibliothèque personnalisée d'IcoMoon dans votre site Web.
 
-4- Mise à Jour du Code : Mettez à jour les références aux icônes dans votre code HTML ou CSS pour utiliser les icônes de votre bibliothèque personnalisée.
+<strong>4- Mise à Jour du Code : </strong>Mettez à jour les références aux icônes dans votre code HTML ou CSS pour utiliser les icônes de votre bibliothèque personnalisée.
 
 En suivant ces étapes, vous pouvez réduire significativement la quantité de données à charger pour les icônes, optimisant ainsi les performances et l'éco-conception de votre site.
 </details>
