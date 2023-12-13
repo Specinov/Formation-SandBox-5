@@ -169,9 +169,12 @@ Voici les étapes à suivre :
 
 <strong>2- Créez une Bibliothèque Personnalisée : </strong>Utilisez IcoMoon pour créer une bibliothèque contenant uniquement ces icônes.
 
-<strong>3- Intégrez la Nouvelle Bibliothèque : </strong>Remplacez l'importation de Font Awesome par votre nouvelle bibliothèque personnalisée d'IcoMoon dans votre site Web.
+<strong>3- Intégrez la Nouvelle Bibliothèque : </strong>Remplacez l'importation de Font Awesome par votre nouvelle bibliothèque personnalisée d'IcoMoon dans votre site Web. Pour ce faire, il suffit de télécharger la police globale. Il faut intégrer le dossier "fonts" dans le projet, puis copier le contenu du fichier "style.css" dans votre style global.
 
-<strong>4- Mise à Jour du Code : </strong>Mettez à jour les références aux icônes dans votre code HTML ou CSS pour utiliser les icônes de votre bibliothèque personnalisée.
+<strong>4- Mise à Jour du Code : </strong>Mettez à jour les références aux icônes dans votre code HTML ou CSS pour utiliser les icônes de votre bibliothèque personnalisée. 
+Par exemple pour importer une icone de nuage : 
+
+```<i class="icon-cloud-check"></i>```
 
 En suivant ces étapes, vous pouvez réduire significativement la quantité de données à charger pour les icônes, optimisant ainsi les performances et l'éco-conception de votre site.
 </details>
