@@ -115,14 +115,14 @@ Les images trop grosses en taille peuvent avoir un impact négatif sur les perfo
 <details>
 <summary><strong>Exercice 2 : Attributs html des images</strong></summary>
 <br>
-Quelle modification pouvez-vous apporter aux balises <img> pour réduire les décalages de mise en page et améliorer le CLS du site ?
+Quelle modification pouvez-vous apporter aux balises `img` pour réduire les décalages de mise en page et améliorer le CLS du site ?
 
 Pour information, le Cumulative Layout Shift (CLS) est une mesure qui indique à quel point les choses bougent sur une page web pendant qu'elle se charge. Imaginez que vous lisez un article et soudainement, une image apparaît et déplace tout le texte ; c'est frustrant, n'est-ce pas ? Le CLS mesure ces mouvements. Un CLS élevé signifie qu'il y a beaucoup de ces mouvements agaçants, et un faible CLS signifie que la page est stable et agréable à utiliser. Donc, pour une bonne expérience utilisateur, nous voulons un CLS le plus bas possible.
 <br>
 <details>
 <summary><u>Indice</u></summary>
 <br>
-Considérez l'importance de réserver de l'espace pour les éléments de contenu avant leur chargement complet. Il existe des attributs spécifiques dans les balises <img> qui peuvent aider le navigateur à allouer l'espace nécessaire pour chaque image dès le début du chargement de la page.     
+Considérez l'importance de réserver de l'espace pour les éléments de contenu avant leur chargement complet. Il existe des attributs spécifiques dans les balises `img` qui peuvent aider le navigateur à allouer l'espace nécessaire pour chaque image dès le début du chargement de la page.     
 <br><br>
 <details>
 <summary><u>Réponse</u></summary>
